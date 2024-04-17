@@ -113,6 +113,15 @@
         position: fixed;
     }
 
+    .navbar{
+        padding-inline: 20px;
+        justify-content: space-between;
+    }
+
+    .nav-logo h1{
+        font-size: 16pt;
+    }
+
     .nav-list{
         position: absolute;
         width: 50%;
