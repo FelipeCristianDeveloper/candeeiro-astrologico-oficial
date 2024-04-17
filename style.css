@@ -30,13 +30,14 @@
 }
 
 .nav-logo img{
-    width: 50px;
+    width: 30px;
     height: 50px;
 }
 
-.nav-logo h1{
+.nav-logo .title{
     font-size: 20pt;
     color: beige;
+    font-weight: bold;
 }
 
 .nav-list{
@@ -117,9 +118,17 @@
         padding-inline: 20px;
         justify-content: space-between;
     }
-
+    
+    .nav-logo a span{
+        display: none;
+    }
     .nav-logo h1{
         font-size: 16pt;
+    }
+
+    .nav-logo img{
+        width: 30px;
+        height: 50px;
     }
 
     .nav-list{
